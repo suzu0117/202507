@@ -11,6 +11,7 @@
     border-radius: 10px;
     overflow-y:auto;
     height:95%;
+    max-height:95vh;
 }
 .modal-close {
     color: #333;
