@@ -1,0 +1,197 @@
+* {
+    font-family:"YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}
+
+
+
+.hamburger {
+    background-color: #1B2E5E;
+    color: #fff;
+    display: block;
+    padding:15px;
+    position: fixed;
+    z-index: 99;
+    top:8px;
+    right:10px;
+}
+
+.header-menu {
+    background-color: #fff;
+    width: 100%;
+    padding-left:150px;
+    padding-right:150px;
+    position: fixed;
+    z-index: 99;
+    top:0;
+    font-size: 20px;
+    font-weight: bold;
+    display: none;
+}
+
+.active {
+    display: block;
+    z-index: 98;
+}
+.header-menu-list{
+    display: flex;
+    justify-content: space-between;
+}
+.header-menu-item a {
+    display: block;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.return-top {
+    display: block;
+    padding:10px;
+    background-color: #1B2E5E;
+    color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+    position: fixed;
+    z-index:99;
+    bottom:10px;
+    right:10px;
+}
+footer {
+    background-color: #86693d;
+    padding-bottom:50px;
+}
+footer .blue-line {
+    background-color: #1B2E5E;
+    height:10px;
+}
+.contact {
+    width: 30%;
+    margin:0 auto;
+    color: #fff;
+    margin-top:50px;
+}
+.contact h2 {
+    text-align: center;
+    font-size: 40px;
+}
+.form-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    margin-top:10px;
+}
+footer form input {
+    background-color: #fff;
+    width:300px;
+}
+.form-textarea {
+    height:80px;
+}
+.shop-info {
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top:50px;
+}
+.shop-info-text-area {
+    padding:10px;
+    color:#fff;
+    font-size:32px;
+}
+.footer-menu {
+    color:#fff;
+    font-size:32px;
+    width:fit-content;
+    margin:0 auto;
+    margin-top:50px;
+}
+.footer-menu-list{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-menu-item {
+    margin-left:20px;
+    margin-right: 20px;
+}
+.copyright {
+    font-size:24px;
+    color: #fff;
+    text-align: center;
+    margin-top:20px;
+}
+.news {
+    margin-bottom:100px;
+}
+.web-campaign {
+    margin-bottom:100px;
+}
+.commitment {
+    margin-bottom:150px;
+}
+.sns-campaign {
+    margin-bottom:100px;
+}
+
+@media screen and (max-width: 768px){
+    .header-menu {
+        padding-left:0;
+        padding-right:0;
+    }
+    .header-menu-list{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .header-menu-item {
+        border-bottom: solid 1px #1B2E5E ;
+    }
+    footer {
+        padding-bottom:30%;
+    }
+    .contact {
+        width: 95%;
+    }
+    .form-item {
+        display: block;
+    }
+    .form-item label,
+    .form-item input {
+        display: block;
+        width: 100%;
+    }
+    .shop-info {
+        display: block;
+        width: 95%
+    }
+    .shop-map {
+        max-width: 100%;
+    }
+    .shop-info-text-area {
+        font-size:20px;
+    }
+    .footer-menu {
+        font-size:20px;
+    }
+    .footer-menu-list{
+        display: block;
+        text-align: center;
+    }
+    .footer-menu-item {
+        margin-top:20px;
+    }
+    .copyright {
+        font-size:20px;
+    } 
+    .news {
+        margin-bottom:10%;
+    }
+    .web-campaign {
+    margin-bottom:20%;
+    }
+    .commitment {
+        margin-bottom:10%;
+    }
+    .sns-campaign {
+        margin-bottom:10%;
+    }
+}

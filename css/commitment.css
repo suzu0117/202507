@@ -1,0 +1,64 @@
+.commitment-background {
+    background: url(../img/bgimg_ine.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+.commitment-container{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-top:20px;
+    height:400px;
+    position: relative;
+}
+.commitment-massage-area {
+    width:35%;
+    margin:0 auto;
+}
+.commitment-massage-area h2 {
+    text-align: center;
+    font-size: 54px;
+}
+.commitment-massage-area .text-area {
+    font-size: 20px;
+}
+
+.commitment-massage-area .text-area p {
+    margin-top:20px;
+}
+
+.commitment-img {
+    position: absolute;
+    right: 150px;
+    width:400px;
+}
+
+.commitment-img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 768px){
+    .commitment-container{
+        position:static;
+        height: fit-content;
+    }
+    .commitment-background {
+        background: none;
+    }
+    .commitment-massage-area {
+        width:95%;
+        margin:0 auto;
+    }
+    .commitment-massage-area h2 {
+        background: url(../img/bgimg_ine.jpg);
+        font-size: 40px;
+    }
+    .commitment-massage-area .text-area {
+        max-width:85%;
+        margin:0 auto;
+    }
+    .commitment-img {
+        position: static;
+        width:100%;
+    }
+}

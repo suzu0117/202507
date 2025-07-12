@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/destyle.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/top.css">
+    <link rel="stylesheet" href="./css/news.css">
+    <link rel="stylesheet" href="./css/web-campaign.css">
+    <link rel="stylesheet" href="./css/commitment.css">
+    <link rel="stylesheet" href="./css/sns-campaign.css">
+    <link rel="stylesheet" href="./css/modal.css">
+    <title>おにぎり屋 ひとにぎり</title>
+</head>
+<body>
+            <div class="modal">
+            <button id="modal-close" class="modal-close">×</button>
+            <form>
+                <div class="customer-info">
+                    <p>お客様情報</p>
+                    <div class="modal-form-item">
+                        <label >メールアドレス</label><input type="text">
+                    </div>
+                    <div class="modal-form-item">
+                        <label>お名前</label><input type="text">
+                    </div>
+                    <div class="modal-form-item">
+                        <label>電話番号</label><input type="text">
+                    </div>
+                </div>
+
+                <div class="customer-address">
+                    <p>住所</p>
+                    <div class="modal-form-item">
+                        <label>郵便番号</label><input type="text">
+                    </div>
+                    <div class="modal-form-item">
+                        <label>都道府県</label>
+                        <select>
+                            <option value="" selected disabled>選択してください</option>
+                            <option value="tokyo">東京都</option>
+                        </select>
+                    </div>
+                    <div class="modal-form-item">
+                        <label>市区町村</label><input type="text">
+                    </div>
+                    <div class="modal-form-item">
+                        <label>番地</label><input type="text">
+                    </div>
+                    <div class="modal-form-item">
+                        <label>建物名・部屋番号</label><input type="text">
+                    </div>
+                </div>
+                
+                <div class="customer-order">
+                    <p>注文内容</p>
+                    <div class="modal-form-item">
+                        <label>塩むすび</label><div><input type="text">個</div>
+                    </div>
+                    <div class="modal-form-item">
+                        <label>焼きおにぎり(みそ)</label><div><input type="text">個</div>
+                    </div>
+                    <div class="modal-form-item">
+                        <label>焼きおにぎり(あさり)</label><div><input type="text">個</div>
+                    </div>
+                    <div class="modal-form-item">
+                        <label>焼きおにぎり(ししとう)</label><div><input type="text">個</div>
+                    </div>
+                </div>
+                <input id="submit-button" type="submit" value="注文送信">
+            </form>
+        </div>
+    <header>
+        <button id="hamburger" class="hamburger">☰</button>
+        <nav id="header-menu" class="header-menu">
+            <ul class="header-menu-list">
+                <li class="header-menu-item"><a href="#top">TOP</a></li>
+                <li class="header-menu-item"><a href="#commitment">こだわり</a></li>
+                <li class="header-menu-item"><a href="#sns-campaign">キャンペーン</a></li>
+                <li class="header-menu-item"><a href="#contact">お問い合わせ</a></li>
+                <li class="header-menu-item"><a href="#infomation">店舗情報</a></li>
+            </ul>
+        </nav>
+
+        <button class="return-top"><a href="#top">ページTOPへ</a></button>
+    </header>
+
+    <main>
+        <section id="top" class="top">
+            <div class="top-cotainer">
+                <img class="top-background" src="./img/bgimg_blueSky.jpg" alt="">
+                <p class="top-massage-text">遠い昔から親しまれ続ける<br>日本の伝統料理「おにぎり」<br>丹精込めて作りました</p>
+                <div class="triple-item triple1"><img src="./img/img_tenMusu.jpg" alt=""></div>
+                <div class="triple-item triple2"><img src="./img/img_sisitoMIso.jpg" alt=""></div>
+                <div class="triple-item triple3"><img src="./img/img_salt02.jpg" alt=""></div>
+                <h1 class="logo">
+                    <img src="./img/logo.png" class="pc-logo">
+                    <img src="./img/logo_SP.png" class="sp-logo">
+                </h1>
+            </div>
+        </section>
+
+        <section id="news" class="news">
+            <div class="news-container">
+                <div class="new-release">
+                    <img src="./img/img_asariYaki.png" alt="">
+                </div>
+                <div class="mobile-order">
+                    <div class="img-area"><img src="./img/img_salt01.jpg" alt=""></div>
+                    <p class="mobile-order-text">並ばずに<br>受け取れます！</p>
+                    <p class="mobile-order-title">モバイルオーダー<br>はじめました</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="web-campaign">
+            <button id="web-campaign-pc-button" class="web-campaign-pc-button"><img src="./img/cta_btn_pc.png" alt=""></button>
+            <button id="web-campaign-sp-button" class="web-campaign-sp-button"><img src="./img/cta_btn_sp.png" alt=""></button>
+        </section>
+            
+        <section id="commitment" class="commitment">
+            <div class="commitment-background">
+                <div class="commitment-container">
+                    <div class="commitment-massage-area">
+                        <h2>こだわり</h2>
+                        <div class="text-area">
+                            <p>お母さんやお父さんが握ってくれたおにぎり<br>思い出してみると、何か特別なことをしているわけではないのに、<br>なぜだか美味しいと感じた思い出はありませんか？</p>
+                            <p>ひとにぎりでは、そんな大切な誰かが作ってくれたおにぎりを、<br>再現できるように手作りにこだわっています。</p>
+                        </div>
+                    <div class="commitment-img"><img src="./img/img_salt02.jpg" alt=""></div>
+                </div>
+                
+            </div>
+            </div>
+            
+        </section>
+
+        <section id="sns-campaign" class="sns-campaign">
+            <div class="sns-campaign-flex">
+                <img src="./img/img_takana.jpg" alt="">
+                <div class="sns-campaign-message-background">
+                    <div class="sns-campaign-message-area">
+                        <p class="text in1">ただいま公式Xにて</p>
+                        <p class="text in2">該当ポストのリポスト&フォローで</p>
+                        <p class="text in3"><span class="red">100円割引クーポン</span>が当たる</p>
+                        <p class="text in4">キャンペーン実施中！！</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="sns-link"><img src="./img/x_icon.png" alt=""></a>
+        </section>
+
+
+
+    </main>
+
+    <footer>
+        <div class="blue-line"></div>
+        <section id="contact" class="contact">
+            <h2>お問い合わせ</h2>
+            <form>
+                <div class="form-item">
+                    <label>名前</label><input type="text">
+                </div>
+                <div class="form-item">
+                    <label>メールアドレス</label><input type="text">
+                </div>
+                <div class="form-item">
+                    <label>電話番号</label><input type="text">
+                </div>
+                <div class="form-item">
+                    <label>お問い合わせ内容</label><input type="textarea" class="form-textarea">
+                </div>
+            </form>
+        </section>
+        <section id="infomation" class="infomation">
+            <div class="shop-info">
+                <iframe class="shop-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.918658439068!2d139.7929326762295!3d35.62973173280053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601889dc629d1e7b%3A0xa4d1509a76045a01!2z5p2x5Lqs44OT44OD44Kw44K144Kk44OI!5e0!3m2!1sja!2sjp!4v1752299590670!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="shop-info-text-area">
+                    <p>おにぎり屋 ひとにぎり</p>
+                    <p>〒000-0000</p>
+                    <p>東京都○○句○○1-2-3</p>
+                </div>
+            </div>
+            <nav class="footer-menu">
+                <ul class="footer-menu-list">
+                    <li class="footer-menu-item"><a href="#">企業情報</a></li>
+                    <li class="footer-menu-item"><a href="#">採用情報</a></li>
+                    <li class="footer-menu-item"><a href="#">当店へのお問い合わせ</a></li>
+                </ul>
+            </nav>
+            <p class="copyright">copyright</p>
+        </section>
+    </footer>
+</body>
+<script src="./js/header.js"></script>
+<script src="./js/modal.js"></script>
+</html>

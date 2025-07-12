@@ -1,0 +1,25 @@
+.web-campaign-pc-button {
+    display:block;
+    width: 60%;
+    margin:0 auto;
+}
+
+.web-campaign-pc-button img{
+    width: 100%;
+}
+.web-campaign-sp-button {
+    display:none;
+}
+@media screen and (max-width: 768px){
+    .web-campaign-pc-button {
+        display:none;
+    }
+    .web-campaign-sp-button {
+        display:block;
+        width: 80%;
+        margin:0 auto;
+    }
+    .web-campaign-sp-button img{
+        width: 100%;
+    }
+}

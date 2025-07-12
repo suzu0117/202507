@@ -1,0 +1,72 @@
+.sns-campaign-flex {
+    width: 50%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sns-campaign-flex img{
+    width:250px;
+    height:250px;
+    object-fit:cover;
+    border-radius: 50%;
+}
+
+.sns-campaign-message-background {
+    background-color: #1B2E5E;
+    padding:10px;
+    height:250px;
+}
+
+.sns-campaign-message-area {
+    background-color: #fff;
+    height:100%;
+}
+
+.sns-campaign-message-area .text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sns-campaign-message-area .in1{  
+    font-size: 28px;
+}
+.sns-campaign-message-area .in2,.in3,.in4 {
+    font-size: 32px;
+    font-weight: bold;
+}
+.sns-campaign-message-area .in3 .red{
+    color: #B3000C;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sns-campaign .sns-link{
+    width:150px;
+    display:block;
+    margin:0 auto;
+    margin-top:50px;
+}
+.sns-campaign .sns-link img{
+    width:100%;
+}
+
+@media screen and (max-width: 768px){
+    .sns-campaign-flex {
+        width: 95%;
+        display: block;
+    }
+    .sns-campaign-flex img{
+        display: none;
+    }
+    .sns-campaign-message-background {
+        height:150px;
+    }
+    .sns-campaign-message-area {
+        padding-top:5%;
+        padding-left:5%;
+    }
+    .sns-campaign-message-area .in1{  
+        font-size: 16px;
+    }
+    .sns-campaign-message-area .in2,.in3,.in4 {
+        font-size: 20px;
+    }
+}
