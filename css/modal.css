@@ -10,6 +10,8 @@
     left:50%;
     transform: translate(-50%,-50%);
     border-radius: 10px;
+    overflow-y:auto;
+    height:95%;
 }
 .modal-close {
     color: #333;
